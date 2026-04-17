@@ -21,9 +21,7 @@ except:
 
 lemma = WordNetLemmatizer()
 
-# ---------------------------
-# Load models
-# ---------------------------
+
 w2v_model = Word2Vec.load("word2vec_model.model")
 
 with open("spam_classifier.pkl", "rb") as f:
